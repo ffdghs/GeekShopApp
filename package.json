@@ -1,0 +1,48 @@
+{
+  "name": "geek-shop-app",
+  "version": "1.0.0",
+  "description": "Geek Shop WebApp exercise for La Passerelle school.",
+  "scripts": {
+    "build": "webpack build",
+    "dev": "npm run build && webpack serve"
+  },
+  "dependencies": {
+    "bootstrap": "4.6.0",
+    "jwt-decode": "^3.1.2",
+    "react": "17.0.2",
+    "react-bootstrap": "1.5.2",
+    "react-dom": "17.0.2",
+    "react-redux": "7.2.4",
+    "react-router-dom": "5.2.0",
+    "react-toastify": "7.0.4",
+    "redux": "4.1.0",
+    "redux-thunk": "2.3.0",
+    "universal-cookie": "^4.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.14.0",
+    "@babel/preset-env": "7.14.1",
+    "@babel/preset-react": "7.13.13",
+    "babel-loader": "8.2.2",
+    "css-loader": "5.2.4",
+    "dotenv-webpack": "7.0.2",
+    "eslint": "7.25.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-react": "7.23.2",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "html-webpack-plugin": "5.3.1",
+    "react-hot-loader": "4.13.0",
+    "redux-devtools-extension": "2.13.9",
+    "style-loader": "2.0.0",
+    "webpack": "5.36.2",
+    "webpack-cli": "4.6.0",
+    "webpack-dev-server": "3.11.2",
+    "webpack-node-externals": "3.0.0"
+  },
+  "private": true,
+  "license": "MIT"
+}
